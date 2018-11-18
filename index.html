@@ -80,12 +80,12 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="cmloong">
 <meta property="og:url" content="http://www.cmloong.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="cmloong">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="cmloong">
 
 
 
@@ -95,7 +95,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -121,7 +121,7 @@
 
 
 
-  <title>Hexo</title>
+  <title>cmloong</title>
   
 
 
@@ -161,7 +161,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">cmloong</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -258,16 +258,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.cmloong.com/2018/11/17/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://www.cmloong.com/archives/1.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="CM">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="cmloong">
     </span>
 
     
@@ -277,7 +277,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/11/17/hello-world/" itemprop="url">Hello World</a></h1>
+                <a class="post-title-link" href="/archives/1.html" itemprop="url">V2ray客户端的使用</a></h1>
         
 
         <div class="post-meta">
@@ -289,8 +289,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-17T22:16:37+08:00">
-                2018-11-17
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-18T15:03:20+08:00">
+                2018-11-18
               </time>
             
 
@@ -300,6 +300,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/v2ray/" itemprop="url" rel="index">
+                    <span itemprop="name">v2ray</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -307,7 +329,7 @@
 
           
           
-             <span id="/2018/11/17/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
+             <span id="/archives/1.html" class="leancloud_visitors" data-flag-title="V2ray客户端的使用">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -339,20 +361,19 @@
 
       
         
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-          ...
+          <p>&emsp;&emsp;之前一直使用ss搭梯子,但是最近ss经常被封所以换成了v2ray来搭梯子,v2ray是ss项目作者被约谈以后v2ray项目组表示抗议开发出来的,致力于让大家更好更快的科学上网.本篇文章就介绍一下怎么使用v2ray客户端进行科学上网.</p>
+<p>&emsp;&emsp;本篇文章只介绍v2ray客户端的使用,前提条件是你已经有了一个可以进行科学上网的代理服务器v2ray服务端的配置,及连接代理服务器的配置信息.v2ray其实是不分客户端和服务端的,客户端和服务端都是一套程序,只是其配置不一样.</p>
+<p>&emsp;&emsp;客户端的使用有两种方式,第一种是直接下载v2ray的程序然后修改其配置文件然后运行就可以了,第二种方式是使用对应平台的第三方客户端程序,其实其核心也是v2ray程序,只是用客户端进行了一层包装让配置更简单.<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/11/17/hello-world/" rel="contents">
+            <a class="btn" href="/archives/1.html" rel="contents">
               Read more &raquo;
             </a>
           </div>
           <!--/noindex-->
         
       
-    </div>
+    </p></div>
     
     
     
@@ -418,7 +439,7 @@ Quick
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
+              <p class="site-author-name" itemprop="name">CM</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -436,7 +457,25 @@ Quick
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
             
 
           </nav>
@@ -474,7 +513,7 @@ Quick
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">CM</span>
 
   
 </div>
